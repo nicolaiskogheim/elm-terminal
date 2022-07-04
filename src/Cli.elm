@@ -51,7 +51,7 @@ logOptionsParser =
 
 
 init : Flags -> CliOptions -> Cmd Never
-init flags cliOptions =
+init _ cliOptions =
     (case cliOptions of
         Init ->
             "Initialized empty Git repository..."
