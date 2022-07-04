@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "test",
-    "run": "./bin/index.js",
+    "telm": "./bin/index.js",
     "build": "elm make src/Cli.elm --output=bin/cli.js"
   },
   "author": "Nicolai Skogheim <nicolai.skogheim@gmail.com> (http://github.com/nicolaiskogheim)",
