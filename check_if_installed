@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+readarray -t commands < <(jq -r ".bin | keys[]" package.json)
+
+for c in "${commands[@]}"
+do
+    found="$(which ${c})"
+    if [ -n "${found}" ]
+    then
+        echo "${c} is globally installed"
+    fi
+done

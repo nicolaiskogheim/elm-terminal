@@ -1,0 +1,19 @@
+{
+  "name": "telm",
+  "version": "1.0.0",
+  "description": "Example terminal application written in elm, wrapped by node.",
+  "main": "bin/index.js",
+  "bin": {
+    "myelmcli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "test",
+    "run": "./bin/index.js",
+    "build": "elm make src/Cli.elm --output=bin/cli.js"
+  },
+  "author": "Nicolai Skogheim <nicolai.skogheim@gmail.com> (http://github.com/nicolaiskogheim)",
+  "license": "MIT",
+  "dependencies": {
+    "elm": "^0.19.1-5"
+  }
+}
