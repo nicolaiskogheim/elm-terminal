@@ -4,7 +4,7 @@
   "description": "Example terminal application written in elm, wrapped by node.",
   "main": "bin/index.js",
   "bin": {
-    "myelmcli": "./bin/index.js"
+    "telm": "./bin/index.js"
   },
   "scripts": {
     "test": "test",
