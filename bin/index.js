@@ -5,7 +5,9 @@ const argv = require('process').argv;
 const Elm = elm.Elm;
 
 const argsToAppend = argv.slice(2);
-const args = ['', ...argsToAppend]
+const args = ['', 'telm', ...argsToAppend]
+
+// if (args.length)
 
 let program = Elm.Cli.init({
     flags: {

@@ -1,4 +1,9 @@
 ## Elm
+
+# compiled elm files
+bin/*.js
+!bin/index.js # except the nodejs wrapper
+
 # elm-package generated files
 elm-stuff
 # elm-repl generated files
